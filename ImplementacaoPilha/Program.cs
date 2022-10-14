@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using ImplementacaoPilha.Classes;
+
+namespace ImplementacaoPilha
+{
+    class Program
+    {
+        static void Main()
+        {
+            var s = new Pilha();
+            s.Empilha(1);
+            s.Empilha(10);
+            s.Empilha(100);
+            Console.WriteLine(s.Desempilha());
+            Console.WriteLine(s.Desempilha());
+            Console.WriteLine(s.Desempilha());
+        }
+    }
+}

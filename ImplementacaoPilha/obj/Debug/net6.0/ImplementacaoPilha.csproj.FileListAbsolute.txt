@@ -1,0 +1,15 @@
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\bin\Debug\net6.0\ImplementacaoPilha.exe
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\bin\Debug\net6.0\ImplementacaoPilha.deps.json
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\bin\Debug\net6.0\ImplementacaoPilha.runtimeconfig.json
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\bin\Debug\net6.0\ImplementacaoPilha.dll
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\bin\Debug\net6.0\ImplementacaoPilha.pdb
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ImplementacaoPilha.csproj.AssemblyReference.cache
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ImplementacaoPilha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ImplementacaoPilha.AssemblyInfoInputs.cache
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ImplementacaoPilha.AssemblyInfo.cs
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ImplementacaoPilha.csproj.CoreCompileInputs.cache
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ImplementacaoPilha.dll
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\refint\ImplementacaoPilha.dll
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ImplementacaoPilha.pdb
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ImplementacaoPilha.genruntimeconfig.cache
+C:\Users\Gui\Documents\Estudos\c_sharp\ImplementacaoPilha\obj\Debug\net6.0\ref\ImplementacaoPilha.dll
