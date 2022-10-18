@@ -1,34 +1,67 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Informe a opção desejada:");
-Console.WriteLine("1 - Inserir novo aluno");
-Console.WriteLine("2 - Listar alunos");
-Console.WriteLine("3 - Calcular média");
-Console.WriteLine("X - Sair");
+﻿namespace Exercicio
+{
+    internal class Program
+    {
+        private static string ObterOpcaoUsuario()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Informe a opção desejada:");
+            Console.WriteLine("1 - Inserir novo aluno");
+            Console.WriteLine("2 - Listar alunos");
+            Console.WriteLine("3 - Calcular média");
+            Console.WriteLine("X - Sair");
+            Console.WriteLine();
 
-string opcaoUsuario = Console.Readline();
+            string opcaoUsuario = Console.ReadLine();
+            return opcaoUsuario;
+        }
+        private static void Main(string[] args)
+        {
+            Aluno[] alunos = new Aluno[5];
+            var indiceAluno = 0;
+            string opcaoUsuario = ObterOpcaoUsuario();
 
-while (opcaoUsuario.ToUpper() != 'X'){
-    switch(opcaoUsuario){
-        case "1": //adicionar aluno
+            while (opcaoUsuario.ToUpper() != "X")
+            {
+                switch (opcaoUsuario)
+                {
+                    case "1": //adicionar aluno
+                        Console.WriteLine("Informe o nome do aluno:");
+                        Aluno aluno = new Aluno();
+                        aluno.Nome = Console.ReadLine();
 
-        break;
+                        Console.WriteLine("Informe a nota do aluno:");
+                        if (decimal.TryParse(Console.ReadLine(), out decimal nota)){
+                            aluno.Nota = nota;
+                        }
+                        else{
+                            throw new ArgumentException("O valor da nota deve ser decimal!");
+                        }
 
-        case "2": //listar alunos
+                        alunos[indiceAluno] = aluno;
+                        indiceAluno++;
+                        break;
 
-        break;
+                    case "2": //listar alunos
+                        foreach(var a in alunos){
+                            if (a.Nome.Equals("")){
+                                Console.WriteLine($"Aluno: {a.Nome} - Nota: {a.Nota}");                        
+                            }
+                        }
+                        break;
 
-        case "3": //calcular média
+                    case "3": //calcular média
 
-        break;
+                        break;
 
-        default:
-            throw new ArgumentOutOfRangeException();
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+
+                opcaoUsuario = ObterOpcaoUsuario();
+
+
+            }
+        }
     }
-    Console.WriteLine("Informe a opção desejada:");
-    Console.WriteLine("1 - Inserir novo aluno");
-    Console.WriteLine("2 - Listar alunos");
-    Console.WriteLine("3 - Calcular média");
-    Console.WriteLine("X - Sair");
-
-    opcaoUsuario = Console.Readline();
 }
