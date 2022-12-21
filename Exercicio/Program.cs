@@ -44,7 +44,7 @@
 
                     case "2": //listar alunos
                         foreach(var a in alunos){
-                            if (a.Nome.Equals("")){
+                            if (!string.IsNullOrEmpty(a.Nome)){
                                 Console.WriteLine($"Aluno: {a.Nome} - Nota: {a.Nota}");                        
                             }
                         }
